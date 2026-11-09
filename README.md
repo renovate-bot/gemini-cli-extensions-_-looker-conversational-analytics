@@ -59,27 +59,27 @@ All harnesses use the same plugin; the MCP server runs via `npx` (no binary to d
 **Gemini CLI**
 
 ```bash
-gemini extensions install https://github.com/gemini-cli-extensions/looker-conversational-analytics
+gemini extensions install https://github.com/GoogleCloudPlatform/looker-conversational-analytics-plugin
 ```
 
 **Claude Code**
 
 ```bash
-claude plugin marketplace add gemini-cli-extensions/looker-conversational-analytics
+claude plugin marketplace add GoogleCloudPlatform/looker-conversational-analytics-plugin
 claude plugin install looker-conversational-analytics@looker-conversational-analytics
 ```
 
 **Codex**
 
 ```bash
-codex plugin marketplace add gemini-cli-extensions/looker-conversational-analytics
+codex plugin marketplace add GoogleCloudPlatform/looker-conversational-analytics-plugin
 codex plugin add looker-conversational-analytics@looker-conversational-analytics
 ```
 
 **Antigravity**
 
 ```bash
-agy plugin install https://github.com/gemini-cli-extensions/looker-conversational-analytics
+agy plugin install https://github.com/GoogleCloudPlatform/looker-conversational-analytics-plugin
 ```
 
 See [Configuration](#configuration) for how each harness supplies the connection settings.
